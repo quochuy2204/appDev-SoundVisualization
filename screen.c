@@ -26,7 +26,7 @@ void gotoXY(int row, int col){
 void displayBar(int col, double rms){
 	int  i;
 	for(i=0; i<rms/100; i++){
-		gotoXY(30-(i+2), col);
+		gotoXY(60-(i+2), col);
 #ifdef UNICODE
 		printf("%s", BAR);
 #else
