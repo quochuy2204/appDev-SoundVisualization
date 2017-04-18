@@ -57,7 +57,7 @@ Second you need to downgrade the alsa-utils from 1.0.28 to 1.0.25. To do so,we n
 -comm.c		: the communication module using libcurl
 -comm.h 	: the header file of comm.c
 -main.c		: contains main() function
--sound.php	: the server page to receive data
+-raspsound.php	: the server page to receive data
 
 
 4. Contact information
