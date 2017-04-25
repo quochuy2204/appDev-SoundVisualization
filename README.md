@@ -84,7 +84,7 @@ Table of Content
 	comm.c		: the communication module using libcurl
 	comm.h		: the header file of comm.c
 	main.c		: contains main() function
-	raspsound.php	: the server page to receive data for every 1 second
+	raspsound.php	: the server page to receive data for every 1 second and write to soundlog.txt
 	read_file3.php	: the server page to read 32 last data from soundlog.txt and show as a chart, the page auto reload for every 1 second so that you can see it as a real-time chart 
 
 
