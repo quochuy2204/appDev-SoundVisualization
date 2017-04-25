@@ -1,5 +1,5 @@
-# this is version 1 of git example......
-
+# README
+# Github source:
 ----------------------------------------------
 	Acoustic Sensor using RPI3
 --------------------------------------------------
@@ -19,18 +19,18 @@ This section contains 2 parts: hardware configuration and software configuration
 1.1Hardware congihuration
 
 This project is built on a Raspberry Pi3, with a USB sound card and a microphone.
-Ethernet connection is recommended. If and older version of Rpberry Pi3 is used,
-certain change might be necessary.
+
+Ethernet connection is recommended. If and older version of Rpberry Pi3 is used, certain change might be necessary.
 
 1.2 Software configurations
 
 First you have to set USB sound card as default audio device:
-	Boot up Rasberry Pi and aplly the USB sound card
-	RPi onboard sound card doesn't have microphone interface. We have to change the default audio device to be USB sound card
-	Use "lusb" command to check if your USB sound card is mouted
-	Run "sudo nano /etc/asound.conf" command and put following content to the file. "pcm.!default { type plug slave { pcm "hw:1,0" } } ctl.!default { type hw card 1 }"
-	Go back home directory. Run "nano .asoundrc" and put the same content to the file
-	Run "alsamixer" to see that USB sound card is the default audio device. You can adjust the volume of mic and headphone
+Boot up Rasberry Pi and aplly the USB sound card
+RPi onboard sound card doesn't have microphone interface. We have to change the default audio device to be USB sound card
+Use "lusb" command to check if your USB sound card is mouted
+Run "sudo nano /etc/asound.conf" command and put following content to the file. "pcm.!default { type plug slave { pcm "hw:1,0" } } ctl.!default { type hw card 1 }"
+Go back home directory. Run "nano .asoundrc" and put the same content to the file
+Run "alsamixer" to see that USB sound card is the default audio device. You can adjust the volume of mic and headphone
 
 
 Second you need to downgrade the alsa-utils from 1.0.28 to 1.0.25. To do so,we need to do all steps:
