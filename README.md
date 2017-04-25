@@ -13,9 +13,10 @@ Table of Content
 6. Credits and acknowledgment
 
 
-1. Configuration Instructions
 
-This section contains 2 parts: hardware configuration and software configuration.
+1.Confifuration Instructions
+
+	This section contains 2 parts: hardware configuration and software configuration.
 
 1.1Hardware congihuration
 
@@ -62,7 +63,7 @@ This section contains 2 parts: hardware configuration and software configuration
 	Use command "make" to compile and link all the source code
 	Change terminal to "UTF-8"
 	
-3. Operating Instructions
+3.Operating Instructions
 
 	Run "make" to make file
 	Run "./wave.a" and record your sound if you want
@@ -72,7 +73,7 @@ This section contains 2 parts: hardware configuration and software configuration
 	The visualization is real-time, so you should be able to view it like what you see in the terminal.
 	To stop the program: Ctrl+C
 
-4. List of project files
+4.List of project files
 
 	README.md	: this file
 	makefile	: the makefile of this project
@@ -83,16 +84,18 @@ This section contains 2 parts: hardware configuration and software configuration
 	comm.c		: the communication module using libcurl
 	comm.h		: the header file of comm.c
 	main.c		: contains main() function
-	raspsound.php	: the server page to receive data
-	read_file3.php	: the server page to read data from soundlog.txt and show as a real-time chart
+	raspsound.php	: the server page to receive data for every 1 second
+	read_file3.php	: the server page to read 32 last data from soundlog.txt and show as a chart, the page auto reload for every 1 second so that you can see it as a real-time chart 
 
 
-5. Contact information
+5.Contact information
+
 	Nguyen Quoc Huy
 	+358 4695 18812
 	quochuy2204@outlook.com
 
-6. Credits and acknowledgment
+6.Credits and acknowledgment
+	
 	This project uses Raspberry Pi 3.
 	Programmer: Nguyen Linh
 	Instructor: Dr.Gao Chao(VAMK)
