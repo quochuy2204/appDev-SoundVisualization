@@ -99,5 +99,5 @@ Table of Content
 6.Credits and acknowledgment
 	
 	This project uses Raspberry Pi 3.
-	Programmer: Nguyen Linh
+	Programmer: Nguyen Huy
 	Instructor: Dr.Gao Chao(VAMK)
