@@ -6,14 +6,6 @@ https://github.com/quochuy2204/appDev
 	Acoustic Sensor using RPI3
 --------------------------------------------------
 
-Table of Content
-1. Configuration Instructions
-2. Installation Instructions
-3. Operating Instructions
-4. List of project files
-5. Contact information
-6. Credits and acknowledgment
-
 
 
 1.Confifuration Instructions
